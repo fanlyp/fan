@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> new document </title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>   
+  <script type="text/javascript">  
+    
+    // 新窗口打开时弹出确认框，是否打开
+
+    // 通过输入对话框，确定打开的网址，默认为 http：//www.imooc.com/
+
+    //打开的窗口要求，宽400像素，高500像素，无菜单栏、无工具栏。
+    function openWindow(){
+    	var  Mymassage = confirm("是否打开新网页?");
+    	if (Mymassage == true) {
+    		window.open(["http：//www.imooc.com"],'_blank','width=400','hight=500','toolar=no','status=no');
+    	}
+    	else{
+    		document.write("overflow");
+    	}
+    }
+  </script> 
+ </head> 
+ <body>
+	  <input style="background: #00ffff "  type="button" value="click me" onclick="openWindow()" alt="?" height="128" width="128" /> 
+ </body>
+</html>
