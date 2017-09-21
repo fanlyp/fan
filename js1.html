@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8" />
+<title>javascript</title>
+<style type="text/css">
+body{font-size:12px;}
+#txt{
+    height:400px;
+    width:600px;
+	border:#333 solid 1px;
+	padding:5px;}
+p{
+	line-height:18px;
+	text-indent:2em;}
+</style>
+</head>
+<body>
+  <h2 id="con">JavaScript</H2>
+  <div id="txt"> 
+     <h5>JavaScript为网页添加交互的功能。</h5>
+        <p>1. JavaScript照片照片</p>
+        <p>2. JavaScript给照片给照片</p>
+        <p>3. 说好的  陌上人如玉，公子世无双；；；；；；；；；；；；</p>
+  </div>
+  <form>
+  <!--当点击相应按钮，执行相应操作，为按钮添加相应事件-->
+    <input type="button" value="改变颜色" onclick="Color()">  
+    <input type="button" value="改变宽高" onclick="Changwh()">
+    <input type="button" value="隐藏内容" >
+    <input type="button" value="显示内容" >
+    <input type="button" value="取消设置" >
+  </form>
+  <script type="text/javascript">
+//定义"改变颜色"的函数
+     function Color(){
+      var mycolor ;
+      var shure=confirm("要改变颜色么？");
+      if(shure == true){
+        mycolor = document.getElementById("con");
+        mycolor.style.color="blue";
+      }
+      else{
+        document.write("bye");
+      }
+      
+     }
+
+
+//定义"改变宽高"的函数
+function Changwh(){
+  var mychange1;
+      var shure2=confirm("要改变宽高么？");
+      if(shure2 == true){
+        mychange1 = document.getElementById("txt");
+        mychange1.style.height ="300px";
+        mychange1.style.width = "500px";
+        mychange1.style.border = "5px solid #3399CC";
+      }
+      else{
+        document.write("bye");
+      }
+      
+}
+
+
+//定义"隐藏内容"的函数
+
+
+//定义"显示内容"的函数
+
+
+//定义"取消设置"的函数
+
+
+
+  </script>
+</body>
+</html>
