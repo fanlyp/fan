@@ -1,0 +1,85 @@
+body{
+	width: 1100px;
+	height: 700px;
+	margin: 100px auto;
+	background-color: #333333;
+	border: 0px  solid #333333;
+	color: white;
+}
+html a {
+	text-decoration: none;
+	color: #ffffff;
+    outline: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+header {
+	display: block;
+	margin-left: 4%;
+	font-size: 2.5em;
+	line-height: 1;
+}
+p{
+	font-family: 'Pangolin', cursive;
+}
+ div #space{
+ 	display: block;
+ 	padding: 0;
+ 	margin: 0 auto;
+ 	background-color: #999933;
+ 	text-align: center;
+ 	float:left;
+ 	width: 23%;
+ 	height: 150px;
+    line-height: 150px;
+    
+ }
+ #image2  img{
+ 	float: left;
+ 	margin:auto 20px;
+ 	width: 23%;
+ 	height: 350px;
+ }
+ #text {
+ 	padding: 0;
+ 	margin: 0 auto;
+ 	background-color: #00b33c;
+ 	text-align: center;
+ 	float:left;
+ 	width: 23%;
+ 	height: 150px;
+    line-height: 150px;
+ }
+ #image3 img{
+ 	float: left;
+ 	margin:auto 20px;
+ 	width: 23%;
+ 	height: 150px;
+ }
+ #image6 img{
+ 	float:left;
+ 	padding: 20px 0;
+ 	margin: 0 auto;
+ 	width: 23%;
+ 	height: 350px;
+ }
+ #image5 img{
+ 	position: relative;
+ 	padding: 20px 0;
+ 	margin-top: 150px;
+ 	margin-left: -1090px;
+ 	width: 23%;
+ 	height: 350px;
+ }
+ #journey { 
+ 	margin-left: 270px;
+ 	margin-top: -175px;
+ 	background-color: #990000;
+ 	text-align: center;
+ 	width: 23%;
+ 	height: 150px;
+    line-height: 0;
+ }
+ #journey a{
+ 	margin-top: -250px;
+ }
