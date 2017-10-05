@@ -13,6 +13,15 @@ html a {
     font-size: 2.5em;
     text-align: center;
 }
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #cccccc;
+}
+a:active, a:focus {
+	color: #ffffff;
+	border: none;
+}
 header {
 	display: block;
 	margin-left: 4%;
@@ -22,7 +31,14 @@ header {
 p{
 	font-family: 'Pangolin', cursive;
 }
- div #space{
+img {
+	width: 100%;
+	height: 100%;
+}
+#main{
+	opacity: 0.8;
+}
+  #space{
  	display: block;
  	padding: 0;
  	margin: 0 auto;
@@ -34,7 +50,7 @@ p{
     line-height: 150px;
     
  }
- #image2  img{
+ #image2 {
  	float: left;
  	margin:auto 20px;
  	width: 23%;
@@ -71,15 +87,35 @@ p{
  	width: 23%;
  	height: 350px;
  }
- #journey { 
- 	margin-left: 270px;
+ #journey  { 
+ 	position: relative;
  	margin-top: -175px;
+ 	margin-left: 270px; 	
  	background-color: #990000;
  	text-align: center;
  	width: 23%;
+    height: 150px;
+    line-height: 150px;
+}
+#wangyi {
+ 	padding: 0;
+ 	margin-top: -349px;
+ 	margin-right:  28px;
+ 	background-color: #e6b800;
+ 	text-align: center;
+ 	float:right;
+ 	width: 23%;
  	height: 150px;
-    line-height: 0;
+    line-height: 150px;
  }
- #journey a{
- 	margin-top: -250px;
+ #JJ {
+ 	padding: 0;
+ 	margin-top: -170px;
+ 	margin-right: 28px;
+ 	background-color: #4d4dff;
+ 	text-align: center;
+ 	float:right;
+ 	width: 23%;
+ 	height: 167px;
+    line-height: 165px;
  }
