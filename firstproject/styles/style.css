@@ -14,20 +14,22 @@ html a {
     text-align: center;
 }
 
-a:hover, a:focus {
+ button:hover, a:focus {
 	text-decoration: none;
 	color: #cccccc;
 }
-a:active, a:focus {
+button:active, a:focus {
 	color: #ffffff;
 	border: none;
 }
+
 header {
 	display: block;
 	margin-left: 4%;
 	font-size: 2.5em;
 	line-height: 1;
 }
+
 p{
 	font-family: 'Pangolin', cursive;
 }
@@ -37,6 +39,15 @@ img {
 }
 #main{
 	opacity: 0.8;
+}
+main button {
+	cursor: pointer;
+	border: none;
+	color: inherit;
+	background-color:initial;
+	font-size: 2.5em;;
+	font-family: inherit;
+	text-decoration: none;
 }
   #space{
  	display: block;
@@ -86,20 +97,11 @@ img {
  	margin-left: -1090px;
  	width: 23%;
  	height: 350px;
+    	z-index: -1;
  }
- #journey  { 
- 	position: relative;
- 	margin-top: -175px;
- 	margin-left: 270px; 	
- 	background-color: #990000;
- 	text-align: center;
- 	width: 23%;
-    height: 150px;
-    line-height: 150px;
-}
-#wangyi {
+ #wangyi {
  	padding: 0;
- 	margin-top: -349px;
+ 	margin-top: -372px;
  	margin-right:  28px;
  	background-color: #e6b800;
  	text-align: center;
@@ -108,9 +110,26 @@ img {
  	height: 150px;
     line-height: 150px;
  }
+ #journey  { 
+ 	display: flex;
+ 	margin-left: 25%;
+ 	margin-top: -180px;
+ 	float: left;
+ 	background-color: #990000;
+ 	width: 23%;
+    height: 150px;
+    line-height: 150px;
+    opacity: 0.8;
+
+}
+#journey{
+	display: block;
+	text-align: center;
+	
+}
  #JJ {
  	padding: 0;
- 	margin-top: -170px;
+ 	margin-top: -195px;
  	margin-right: 28px;
  	background-color: #4d4dff;
  	text-align: center;
@@ -118,4 +137,25 @@ img {
  	width: 23%;
  	height: 167px;
     line-height: 165px;
+    opacity: 0.8;
+ }
+ #SpaceCon {
+ 	display: none;
+ }
+ #IntoSpace {
+       text-align: center;
+       line-height: 
+ }
+ #I{
+ 	
+ 	float: left;
+ 	width: 47%;
+ 	height: 100px;
+ 	background-color: #8FBC8F;
+ }
+ #Her{
+ 	float: right;
+ 	width: 47%;
+ 	height: 100px;
+ 	background-color: #BDB76B;
  }
