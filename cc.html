@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表格</title>
+		<style>
+			h1{text-align: center;}
+			table{ margin:auto }
+		</style>
+	</head>
+	<body>
+		<h1>英雄技能介绍</h1>
+		<table border="1px" >
+			<colgroup span="3" width="119px">
+			<colgroup span="1" width="350px">
+			<colgroup span="1" width="70px"></colgroup>
+			<tr style="text-align: center; background-color:green ; height: 30px;">
+				<td>技能名 </td>
+				<td>触发</td>
+				<td>技能属性</td>
+				<td>技能效果</td>
+				<td>图标</td>
+			</tr>
+			<tr style="text-align: center; height:69px;">
+				<td>坚韧</td>
+				<td>被动</td>
+				<td colspan="2" style="text-align:left;">
+					<p>盖伦如果在9秒内不受到任何伤害，之后的每秒都会回复自 <br>
+						己最大生命值的0.4%。小兵的伤害不会中断坚韧效果</p>
+				</td>
+				<td>
+					<img src="./skill1.png" alt="被动">
+				</td>
+			</tr>
+			<tr style="text-align: center; height: 120px;">
+				<td>致命打击</td>
+				<td>Q</td>
+				<td>冷却时间：8</td>
+				<td style="text-align: left;">
+					盖伦移除身上的所有减速效果，并获得30%移动速度加成，持续1.5/2/2.5/3/3.5秒。
+在接下来的4.5秒内，他的下次普通攻击会造成30/55/80/105/130(+1.4AD)物理伤害，并沉默目标1.5秒。
+				</td>
+				<td> 
+					<img src="./skill2.png" alt="Q">
+				</td>
+			</tr>
+			<tr style="text-align: center; height: 88px;">
+				<td>勇气</td>
+				<td>W</td>
+				<td>
+					<p>冷却：</br> 24/23/22/21/20</p>
+				</td>
+				<td>
+					<p style="text-align: left;">
+						<b>被动：</b>击杀一个单位会永久提供0.25护甲和魔法抗性加成，最大值：30 <br>
+						<b>主动：</b>盖伦获得一个持续2/3/4/5/6秒的防御护盾，减少即将到来的30%伤害。
+					</p>
+				</td>
+				<td>
+					<img src="./skill3.png" alt="W">
+				</td>
+			</tr>
+			<tr style="text-align: center; height: 200px;">
+				<td>审判</td>
+				<td>E</td>
+				<td>冷却：9</td>
+				<td>
+					<p style="text-align: left;">
+						盖伦快速地旋舞大剑，持续3秒，在持续期间对周围敌人总共造成物理伤害——14/18/22/26/30加上他总攻击力的34/35/36/37/38%，5次(英雄每升3级加1次)。<br>
+  						E【审判】会在攻击单个敌人时造成33%额外伤害。<br>
+						取消E【审判】会返还相当于剩余持续时长的冷却时间。<br>
+						E【审判】可以暴击，并造成额外伤害。<br>
+					</p>
+				</td>
+				<td>
+					<img src="./skill4.png" alt="E">
+				</td>
+			</tr>
+			<tr style="text-align: center; height: 200px;">
+				<td>德玛西亚正义</td>
+				<td>R</td>
+				<td>冷却：</br> 120/100/80</td>
+				<td>
+					<p style="text-align: left;">
+						<b>被动：</b>最近获得最多击杀数的敌人会成为大反派。盖伦的E【审判】和普攻会对大反派造成额外真实伤害，伤害值为大反派1%的最大生命值。<br>
+						<b>主动：</b>盖伦召唤德玛西亚之力，试图斩杀一名敌方英雄，目标损失的生命越多，则此技能造成的伤害越高。造成175/350/525魔法伤害加上目标已损失生命值的28/33/40%。对大反派造成真实伤害。
+					</p>
+				</td>
+				<td>
+					<img src="./skill5.png" alt="R">
+				</td>
+			</tr>
+			<tr style="height: 500px;">
+				<td colspan="5">
+					<iframe src="https://blog.csdn.net/fan__lee" frameborder="1px" width="100%" height="590px" ></iframe>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
